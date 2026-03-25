@@ -4,8 +4,8 @@ import AppCard from '../reuse-components/AppCard';
 
 const Trending = ({appPromise}) => {
     const appData = use(appPromise)
-    console.log(appData)
-    return (
+    // console.log(appData)
+   return (
         <div className='section min-h-screen py-10 bg-gray-200'>
             <SectionHeader 
             title={`Trending Apps ${appData.length}`}
@@ -17,7 +17,7 @@ const Trending = ({appPromise}) => {
   <AppCard key={data.id} data={data} />
 ))}
             </div>
-
+    <button className='btn-primary'>Show All</button>
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 import Logo from "../reuse-components/Logo";
+import { IoIosClose, IoIosMenu } from "react-icons/io";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = <>
@@ -74,9 +75,7 @@ const Navbar = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="inline-block md:hidden active:scale-90 transition"
       >
-        <svg width="30" height="30" viewBox="0 0 30 30" fill="#000">
-          <path d="M 3 7 L 27 7 M 3 14 L 27 14 M 3 21 L 27 21" stroke="black" strokeWidth="2"/>
-        </svg>
+      {isOpen ? <IoIosClose size={30}/> :<IoIosMenu size={30} />}
       </button>
 
       {/* Mobile Menu */}
@@ -84,14 +83,8 @@ const Navbar = () => {
         <ul className="flex flex-col space-y-4 text-lg">
     {navItems}
          </ul>
-{/* 
-        <button
-          type="button"
-          className="bg-white text-gray-600 border border-gray-300 mt-6 text-sm hover:bg-gray-50 active:scale-95 transition-all w-40 h-11 rounded-full"
-        >
-         Contribute
-        </button> */}
-        <a href="https://github.com/minhazchy101" target="blank" className="flex items-center justify-center gap-2 px-3 py-1 font-semibold text-white bg-linear-to-r from-primary to-purple-600 rounded-lg hover:from-purple-600 hover:to-primary transition-all duration-300 cursor-pointer text-sm w-40 h-11 mt-6">
+
+        <a  href="https://github.com/minhazchy101" target="blank" className="flex items-center justify-center gap-2 btn-primary">
   <FaGithub size={20} /> Contribute
 </a>
       </div>

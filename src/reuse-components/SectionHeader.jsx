@@ -14,7 +14,7 @@ const SectionHeader = ({
       : "text-center";
 
   return (
-    <div className={`w-full max-w-3xl mx-auto m-5 space-y-5 ${alignment} ${className}`}>
+    <div className={`w-full max-w-3xl mx-auto mb-5 space-y-5 ${alignment} ${className}`}>
       <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900">
         {title}
       </h2>
