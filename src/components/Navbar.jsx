@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 import Logo from "../reuse-components/Logo";
@@ -65,8 +64,8 @@ const Navbar = () => {
        </ul>
 
       {/* Desktop Button */}
-      <a href="https://github.com/minhazchy101" target="blank" className="flex items-center gap-2 px-6 py-2 font-semibold text-white bg-linear-to-r from-primary to-purple-600 rounded-lg hover:from-purple-600 hover:to-primary transition-all duration-300 cursor-pointer">
-  <FaGithub /> Contribute
+      <a href="https://github.com/minhazchy101" target="blank" className="md:flex hidden items-center gap-4 px-6 py-2 font-semibold text-white bg-linear-to-r from-primary to-purple-600 rounded-lg hover:from-purple-600 hover:to-primary transition-all duration-300 cursor-pointer">
+  <FaGithub size={28} /> Contribute
 </a>
 
       {/* Mobile Menu Button */}
@@ -84,18 +83,18 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`${isOpen ? "block" : "hidden"} absolute top-17.5 left-0 w-full bg-white p-6 md:hidden`}>
         <ul className="flex flex-col space-y-4 text-lg">
-          <li><a href="#" className="text-sm">Home</a></li>
-          <li><a href="#" className="text-sm">Services</a></li>
-          <li><a href="#" className="text-sm">Portfolio</a></li>
-          <li><a href="#" className="text-sm">Pricing</a></li>
-        </ul>
-
+    {navItems}
+         </ul>
+{/* 
         <button
           type="button"
           className="bg-white text-gray-600 border border-gray-300 mt-6 text-sm hover:bg-gray-50 active:scale-95 transition-all w-40 h-11 rounded-full"
         >
          Contribute
-        </button>
+        </button> */}
+        <a href="https://github.com/minhazchy101" target="blank" className="flex items-center justify-center gap-2 px-3 py-1 font-semibold text-white bg-linear-to-r from-primary to-purple-600 rounded-lg hover:from-purple-600 hover:to-primary transition-all duration-300 cursor-pointer text-sm w-40 h-11 mt-6">
+  <FaGithub size={20} /> Contribute
+</a>
       </div>
     </nav>
   );
