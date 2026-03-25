@@ -9,9 +9,9 @@ const Hero = () => {
         
         <div>
 
-      <h1 className="text-center text-slate-800 text-4xl md:text-6xl font-bold max-w-3xl leading-tight bg-clip-text my-2.5 px-4 mx-auto">
+      <h1 className="text-center text-slate-800 text-4xl md:text-6xl font-bold max-w-xl leading-tight bg-clip-text my-2.5 px-4 mx-auto">
 
-        We Build <br /> <span className='bg-linear-to-r from-primary to-secondary/70 bg-clip-text text-transparent'>Productive</span> Apps
+        We Build <span className='bg-linear-to-r from-primary to-secondary/70 bg-clip-text text-transparent'>Productive</span> Apps
       </h1>
       <p className="text-center text-base text-gray-600 max-w-5xl px-4">
       At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
