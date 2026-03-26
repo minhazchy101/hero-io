@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import SectionHeader from '../reuse-components/SectionHeader';
 import { useParams } from 'react-router';
 import ErrorApp from '../reuse-components/ErrorApp';
@@ -8,10 +8,11 @@ import reviewsIcon from '../assets/icon-review.png'
 import toast from 'react-hot-toast';
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
 import RatingsChart from '../components/AppsCom/RatingsChart';
+import { saveTheApp } from '../utility/storeApps';
 // import { DevTools } from "@recharts/devtools";
 const AppDetails = ({appPromise}) => {
 
-  
+  const [isInstalled, setIsInstalled] =useState(false)
    const { id } = useParams();
 
 const appData = use(appPromise);
@@ -50,10 +51,17 @@ const {
         },
     ]
 
-console.log(size);
-const handleInstall =()=>{
-    toast.success('Successfully created!');
-}
+// console.log(size);
+const handleInstall = () => {
+  const result = saveTheApp(id);
+
+  if (result.success) {
+   setIsInstalled(true);
+    toast.success(result.message);
+  } else {
+    toast.error(result.message);
+  }
+};
     return (
         <div className='section'>
             {/* <SectionHeader
@@ -82,10 +90,15 @@ const handleInstall =()=>{
                        }
                         
                     </div>
-                    <button className="px-12 py-2 bg-[#00D390] hover:shadow-lg transition-all text-white mt-6 duration-300 rounded-xl cursor-pointer"
-                    onClick={handleInstall}
+                    <button className={`px-12 py-2 rounded-xl mt-6 duration-300 text-white transition-all ${
+        isInstalled
+          ? 'bg-gray-400 cursor-not-allowed'
+          : 'bg-[#00D390] hover:shadow-lg cursor-pointer'
+      }`}
+      onClick={handleInstall}
+      disabled={isInstalled}
                     >
-                        Install Now (291 MB)
+                   {isInstalled ?  'Installed'   : 'Install Now (291 MB)'}
                     </button>
                 </div>
             </div>
