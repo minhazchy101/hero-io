@@ -3,10 +3,13 @@ import SectionHeader from '../reuse-components/SectionHeader';
 import { getAllApps, unInstallTheApp } from '../utility/storeApps';
 import { FaDownload, FaStar } from 'react-icons/fa';
 import toast from 'react-hot-toast';
+import Select from 'react-select';
 
 const Installation = ({appPromise}) => {
     const allApp = use(appPromise)
     const [yourApp, setYourApp] = useState([])
+      const [selectedOption, setSelectedOption] = useState(null);
+      
     useEffect(()=>{
        const installedApp = getAllApps().map(Number);
         const appList = allApp.filter(app => installedApp.includes(app.id))
@@ -23,6 +26,26 @@ const Installation = ({appPromise}) => {
     toast.error("Something Wrong");
   }
        }
+
+       const handleSort =(sortType)=>{
+        console.log(sortType)
+        // setSort(sortType)
+        if (sortType === "Low-High") {
+            const sortAppLH = [...yourApp].sort((a,b)=> a.rating- b.rating)
+            console.log(sortAppLH)
+          return  setYourApp(sortAppLH)
+        }
+        if(sortType === "High-Low"){
+         const sortAppHL = [...yourApp].sort((a,b)=> b.rating - a.rating)
+         return setYourApp(sortAppHL)
+        }
+       }
+
+       const options = [
+  { value: 'High-Low', label: 'High-Low' },
+  { value: 'Low-High', label: 'Low-High' },
+//   { value: 'vanilla', label: 'Vanilla' },
+];
     return (
         <div className='section max-h-full min-h-screen'>
            <SectionHeader title={"Your Installed Apps"} subtitle={"Explore All Trending Apps on the Market developed by us"}/> 
@@ -31,9 +54,17 @@ const Installation = ({appPromise}) => {
                      ({yourApp.length}) Apps Found
                    </h1>
            
-                   <div className="flex items-center border pl-4 gap-2 border-gray-500/30 h-11.5 rounded-full overflow-hidden max-w-md w-full">
-                     <p>hehe</p>
-                   </div>
+                   {/* <div className="flex items-center border pl-4 gap-2 border-gray-500/30 h-11.5 rounded-full overflow-hidden max-w-md w-full"> */}
+                      <Select
+             className='text-black'
+        defaultValue={selectedOption}
+        onChange={(option) => {
+        setSelectedOption(option);
+        handleSort(option.value);
+    }}
+        options={options}
+      />
+                   {/* </div> */}
                  </div>
                  <div className="space-y-4">
        {yourApp && yourApp.length > 0 ? (

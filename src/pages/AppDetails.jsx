@@ -1,5 +1,4 @@
-import React, { use, useState } from 'react';
-import SectionHeader from '../reuse-components/SectionHeader';
+import React, { use, useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import ErrorApp from '../reuse-components/ErrorApp';
 import downloadIcon from '../assets/icon-downloads.png'
@@ -8,18 +7,35 @@ import reviewsIcon from '../assets/icon-review.png'
 import toast from 'react-hot-toast';
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
 import RatingsChart from '../components/AppsCom/RatingsChart';
-import { saveTheApp } from '../utility/storeApps';
-// import { DevTools } from "@recharts/devtools";
+import { getAllApps, saveTheApp } from '../utility/storeApps';
+
 const AppDetails = ({appPromise}) => {
 
-  const [isInstalled, setIsInstalled] =useState(false)
-   const { id } = useParams();
+ const { id } = useParams();
+  const appData = use(appPromise);
+  const theApp = appData.find(app => app.id === Number(id));
+console.log(theApp)
+  const [isInstalled, setIsInstalled] = useState(false);
 
-const appData = use(appPromise);
+ 
+  useEffect(() => {
+    const installedApps = getAllApps().map(Number); 
+    if (installedApps.includes(Number(id))) {
+      setIsInstalled(true);
+    }
+  }, [id]);
 
-const theApp = appData.find(app => app.id == id);
+  if (!theApp) return <ErrorApp/>;
 
-if (!theApp) return <ErrorApp/>;
+  const handleInstall = () => {
+    const result = saveTheApp(Number(id)); // save as number
+    if (result.success) {
+      setIsInstalled(true); // update state immediately
+      toast.success(result.message);
+    } else {
+      toast.error(result.message);
+    }
+  };
 
 const {
   companyName,
@@ -29,7 +45,6 @@ const {
   ratingAvg,
   ratings,
   reviews,
-  size,
   title
 } = theApp;
 
@@ -51,22 +66,10 @@ const {
         },
     ]
 
-// console.log(size);
-const handleInstall = () => {
-  const result = saveTheApp(id);
 
-  if (result.success) {
-   setIsInstalled(true);
-    toast.success(result.message);
-  } else {
-    toast.error(result.message);
-  }
-};
     return (
         <div className='section'>
-            {/* <SectionHeader
-            title={'App Details'}
-            /> */}
+         
 
              <div className="flex flex-col md:flex-row bg-white max-w-full">
                 <img className='w-full md:w-64 h-full object-cover object-top'
