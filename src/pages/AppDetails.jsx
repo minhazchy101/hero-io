@@ -28,9 +28,9 @@ console.log(theApp)
   if (!theApp) return <ErrorApp/>;
 
   const handleInstall = () => {
-    const result = saveTheApp(Number(id)); // save as number
+    const result = saveTheApp(Number(id));
     if (result.success) {
-      setIsInstalled(true); // update state immediately
+      setIsInstalled(true); 
       toast.success(result.message);
     } else {
       toast.error(result.message);
