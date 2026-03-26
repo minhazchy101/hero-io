@@ -1,15 +1,15 @@
 [
   {
-    "image": "https://source.unsplash.com/featured/?fitness,workout,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-020.webp",
     "title": "FitPulse: Home Workout",
     "rating": 4.7,
     "companyName": "healthify.app",
-    "id": 2,
+    "id": 1711459200001,
     "description": "FitPulse is designed to make fitness accessible for everyone, regardless of experience level. It provides guided workout routines that can be done at home without equipment. The app includes strength training, cardio, yoga, and stretching programs tailored to user goals. Smart tracking monitors progress over time, showing improvements in stamina, strength, and consistency. With daily reminders and motivational insights, FitPulse encourages users to stay active and build healthy habits.",
     "size": 190,
     "reviews": "9K",
     "ratingAvg": 4.7,
-    "downloads": "3M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 500 },
@@ -19,16 +19,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?music,streaming,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-021.webp",
     "title": "SoundWave: Music Streaming",
     "rating": 4.8,
     "companyName": "wave.inc",
-    "id": 3,
+    "id": 1711459200002,
     "description": "SoundWave offers unlimited access to millions of songs from artists worldwide. Users can create playlists, explore curated mixes, and discover new music based on listening habits. Offline downloads allow playback without internet access, making it ideal for travel. The app also features personalized recommendations powered by AI, ensuring users always find something they love.",
     "size": 210,
     "reviews": "25K",
     "ratingAvg": 4.8,
-    "downloads": "10M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 800 },
@@ -38,16 +38,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?food,delivery,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-017.webp",
     "title": "QuickBite: Food Delivery",
     "rating": 4.5,
     "companyName": "foodrush.io",
-    "id": 4,
+    "id": 1711459200003,
     "description": "QuickBite connects users with nearby restaurants for fast and convenient food delivery. The app features real-time tracking, multiple payment options, and exclusive deals. Users can browse menus, read reviews, and reorder favorites with ease. With its reliable delivery network, QuickBite ensures meals arrive fresh and on time.",
     "size": 175,
     "reviews": "14K",
     "ratingAvg": 4.5,
-    "downloads": "6M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1000 },
@@ -57,16 +57,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?travel,booking,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-023.webp",
     "title": "TripMate: Travel Planner",
     "rating": 4.6,
     "companyName": "wanderlabs",
-    "id": 5,
+    "id": 1711459200004,
     "description": "TripMate simplifies travel planning by combining itinerary creation, booking options, and destination guides in one app. Users can organize flights, hotels, and activities while receiving smart recommendations based on preferences. Offline access ensures plans are always available, even without internet.",
     "size": 220,
     "reviews": "11K",
     "ratingAvg": 4.6,
-    "downloads": "4M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 700 },
@@ -76,16 +76,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?meditation,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-024.webp",
     "title": "CalmSpace: Meditation & Sleep",
     "rating": 4.8,
     "companyName": "mindful.tech",
-    "id": 6,
+    "id": 1711459200005,
     "description": "CalmSpace helps users reduce stress and improve sleep through guided meditation sessions, breathing exercises, and relaxing soundscapes. The app includes programs for anxiety relief, focus improvement, and better sleep habits, making it ideal for daily mental wellness.",
     "size": 180,
     "reviews": "12K",
     "ratingAvg": 4.8,
-    "downloads": "5M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -95,16 +95,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?notes,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-025.webp",
     "title": "NoteNest: Smart Notes",
     "rating": 4.6,
     "companyName": "organize.io",
-    "id": 7,
+    "id": 1711459200006,
     "description": "NoteNest allows users to capture ideas, create to-do lists, and organize notes efficiently. With cloud sync, tagging, and search features, it ensures your thoughts are always accessible and structured.",
     "size": 95,
     "reviews": "8K",
     "ratingAvg": 4.6,
-    "downloads": "2M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 300 },
@@ -114,16 +114,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?weather,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-026.webp",
     "title": "SkyCast: Weather Forecast",
     "rating": 4.4,
     "companyName": "climatex",
-    "id": 8,
+    "id": 1711459200007,
     "description": "SkyCast provides accurate weather forecasts, real-time updates, and severe weather alerts. The app features hourly and weekly forecasts with beautiful visualizations.",
     "size": 70,
     "reviews": "6K",
     "ratingAvg": 4.4,
-    "downloads": "3M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 400 },
@@ -133,16 +133,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?finance,tracking,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-027.webp",
     "title": "ExpenseMate: Budget Tracker",
     "rating": 4.5,
     "companyName": "fintrack",
-    "id": 9,
+    "id": 1711459200008,
     "description": "ExpenseMate helps users track daily spending, set budgets, and analyze financial habits. Visual charts and reports make money management simple and effective.",
     "size": 85,
     "reviews": "7K",
     "ratingAvg": 4.5,
-    "downloads": "2.5M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 450 },
@@ -152,16 +152,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?gaming,mobile",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-028.webp",
     "title": "PixelRun: Endless Adventure",
     "rating": 4.7,
     "companyName": "arcade.studio",
-    "id": 10,
+    "id": 1711459200009,
     "description": "PixelRun is an addictive endless runner game featuring vibrant graphics and exciting challenges. Players dodge obstacles, collect coins, and unlock new characters.",
     "size": 140,
     "reviews": "18K",
     "ratingAvg": 4.7,
-    "downloads": "9M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 700 },
@@ -171,16 +171,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?learning,language,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-029.webp",
     "title": "LinguaGo: Learn Languages",
     "rating": 4.9,
     "companyName": "eduverse",
-    "id": 11,
+    "id": 1711459200010,
     "description": "LinguaGo helps users learn new languages through interactive lessons, quizzes, and speech recognition. It supports multiple languages and adapts to user progress.",
     "size": 160,
     "reviews": "22K",
     "ratingAvg": 4.9,
-    "downloads": "12M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -190,16 +190,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?photo,editor",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-030.webp",
     "title": "PhotoFix: AI Editor",
     "rating": 4.8,
     "companyName": "pixel.ai",
-    "id": 12,
+    "id": 1711459200011,
     "description": "PhotoFix offers powerful AI tools for enhancing photos, removing backgrounds, and applying artistic filters. Perfect for both beginners and professionals.",
     "size": 210,
     "reviews": "19K",
     "ratingAvg": 4.8,
-    "downloads": "8M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 500 },
@@ -209,16 +209,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?video,editing,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-031.webp",
     "title": "ClipMaster: Video Editor",
     "rating": 4.6,
     "companyName": "mediaworks",
-    "id": 13,
+    "id": 1711459200012,
     "description": "ClipMaster allows users to edit videos with transitions, effects, and music. It includes templates for social media content creation.",
     "size": 250,
     "reviews": "13K",
     "ratingAvg": 4.6,
-    "downloads": "6M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 800 },
@@ -228,16 +228,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?books,reading,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-032.webp",
     "title": "Readify: eBook Reader",
     "rating": 4.5,
     "companyName": "bookhub",
-    "id": 14,
+    "id": 1711459200013,
     "description": "Readify provides access to thousands of eBooks with customizable reading modes, bookmarks, and offline support.",
     "size": 110,
     "reviews": "10K",
     "ratingAvg": 4.5,
-    "downloads": "4M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 350 },
       { "name": "2 star", "count": 500 },
@@ -247,16 +247,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?map,navigation,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-033.webp",
     "title": "RouteWise: Navigation",
     "rating": 4.4,
     "companyName": "navtech",
-    "id": 15,
+    "id": 1711459200014,
     "description": "RouteWise provides real-time navigation, traffic updates, and route optimization to help users reach destinations faster.",
     "size": 130,
     "reviews": "9K",
     "ratingAvg": 4.4,
-    "downloads": "5M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 700 },
@@ -266,16 +266,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?calendar,planner,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-034.webp",
     "title": "PlanIt: Daily Planner",
     "rating": 4.7,
     "companyName": "taskflow",
-    "id": 16,
+    "id": 1711459200015,
     "description": "PlanIt helps users organize daily schedules, set reminders, and manage tasks efficiently with a clean interface.",
     "size": 90,
     "reviews": "11K",
     "ratingAvg": 4.7,
-    "downloads": "3M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 350 },
@@ -285,16 +285,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?cloud,storage,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-035.webp",
     "title": "CloudBox: File Storage",
     "rating": 4.6,
     "companyName": "datavault",
-    "id": 17,
+    "id": 1711459200016,
     "description": "CloudBox allows secure storage, sharing, and backup of files with easy access across devices.",
     "size": 200,
     "reviews": "15K",
     "ratingAvg": 4.6,
-    "downloads": "7M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -304,16 +304,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?news,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-036.webp",
     "title": "NewsFlash: Daily News",
     "rating": 4.3,
     "companyName": "globalnews",
-    "id": 18,
+    "id": 1711459200017,
     "description": "NewsFlash delivers breaking news, trending stories, and personalized news feeds from around the world.",
     "size": 75,
     "reviews": "8K",
     "ratingAvg": 4.3,
-    "downloads": "4M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 800 },
@@ -323,16 +323,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?shopping,ecommerce,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-037.webp",
     "title": "ShopSmart: Online Deals",
     "rating": 4.5,
     "companyName": "buynow",
-    "id": 19,
+    "id": 1711459200018,
     "description": "ShopSmart helps users find the best deals across online stores with price comparisons and exclusive discounts.",
     "size": 155,
     "reviews": "20K",
     "ratingAvg": 4.5,
-    "downloads": "10M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 1200 },
@@ -342,16 +342,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?security,privacy,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-038.webp",
     "title": "SecureNet: VPN & Privacy",
     "rating": 4.6,
     "companyName": "cyberguard",
-    "id": 20,
+    "id": 1711459200019,
     "description": "SecureNet protects user privacy with encrypted connections, anonymous browsing, and secure Wi-Fi protection.",
     "size": 120,
     "reviews": "16K",
     "ratingAvg": 4.6,
-    "downloads": "6M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 700 },
@@ -361,16 +361,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?kids,learning,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-039.webp",
     "title": "KiddoLearn: Fun Education",
     "rating": 4.8,
     "companyName": "brightkids",
-    "id": 21,
+    "id": 1711459200020,
     "description": "KiddoLearn makes learning fun for children through games, quizzes, and interactive lessons across subjects.",
     "size": 170,
     "reviews": "13K",
     "ratingAvg": 4.8,
-    "downloads": "5M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -380,16 +380,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?drawing,art,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-040.webp",
     "title": "SketchPro: Drawing App",
     "rating": 4.7,
     "companyName": "artify",
-    "id": 22,
+    "id": 1711459200021,
     "description": "SketchPro provides tools for digital drawing, sketching, and painting with brushes, layers, and creative effects.",
     "size": 230,
     "reviews": "14K",
     "ratingAvg": 4.7,
-    "downloads": "6M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -399,16 +399,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?podcast,audio,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-041.webp",
     "title": "PodStream: Podcast Player",
     "rating": 4.6,
     "companyName": "audiowave",
-    "id": 23,
+    "id": 1711459200022,
     "description": "PodStream allows users to explore, subscribe, and listen to podcasts across multiple genres with offline playback.",
     "size": 140,
     "reviews": "9K",
     "ratingAvg": 4.6,
-    "downloads": "3M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 500 },
@@ -418,16 +418,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?chat,community,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-042.webp",
     "title": "ChatLoop: Social Messaging",
     "rating": 4.5,
     "companyName": "connectify",
-    "id": 24,
+    "id": 1711459200023,
     "description": "ChatLoop enables users to chat, share media, and connect with communities through groups and channels.",
     "size": 160,
     "reviews": "18K",
     "ratingAvg": 4.5,
-    "downloads": "9M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1000 },
@@ -437,16 +437,16 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?ai,assistant,app",
+    "image": "https://hero-apps.pages.dev/app-logo/icon-043.webp",
     "title": "SmartAI: Virtual Assistant",
     "rating": 4.9,
     "companyName": "futuretech",
-    "id": 25,
+    "id": 1711459200024,
     "description": "SmartAI helps users manage tasks, answer queries, and automate daily routines using advanced AI capabilities.",
     "size": 210,
     "reviews": "30K",
     "ratingAvg": 4.9,
-    "downloads": "15M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 700 },

@@ -31,12 +31,12 @@ const Installation = ({appPromise}) => {
         console.log(sortType)
         // setSort(sortType)
         if (sortType === "Low-High") {
-            const sortAppLH = [...yourApp].sort((a,b)=> a.rating- b.rating)
+            const sortAppLH = [...yourApp].sort((a,b)=> a.downloads- b.downloads)
             console.log(sortAppLH)
           return  setYourApp(sortAppLH)
         }
         if(sortType === "High-Low"){
-         const sortAppHL = [...yourApp].sort((a,b)=> b.rating - a.rating)
+         const sortAppHL = [...yourApp].sort((a,b)=> b.downloads - a.downloads)
          return setYourApp(sortAppHL)
         }
        }
@@ -72,21 +72,21 @@ const Installation = ({appPromise}) => {
     <div key={app.id} className="flex items-center gap-5 p-5 max-w-full rounded-md border border-gray-300 text-gray-800">
       <img
         className="w-12 h-12 object-cover opacity-60"
-        src={app.image || 'https://hero-apps.pages.dev/app-logo/icon-010.webp'}
+        src={app.image}
         alt={app.title}
       />
       <div className="flex flex-col">
         <h3 className="font-medium">{app.title}</h3>
         <p className="text-sm text-gray-500">{app.companyName}</p>
         <div className="flex items-center gap-3 text-sm text-gray-600 mt-1">
-          <span className='flex items-center gap-0.5 text-[#00D390]'><FaDownload/> {app.downloads}</span>
+          <span className='flex items-center gap-0.5 text-secondary'><FaDownload/> {app.downloads}M</span>
           <span className='flex items-center gap-0.5 text-[#FF8811]'><FaStar/> {app.ratingAvg}</span>
           <span>{app.size} MB</span>
         </div>
       </div>
       <button 
       onClick={()=>handleUnInstall(app.id)}
-      className="ml-auto px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">
+      className="ml-auto px-4 py-2 bg-secondary text-white rounded hover:bg-green-600 transition">
         Uninstall
       </button>
     </div>

@@ -16,7 +16,9 @@ const saveTheApp =(id)=>{
         return {success: false, message: "Already Installed"}
     }
     // const updatedApps = [...allApps, id];
+
     allApps.push(id)
+    console.log(JSON.stringify(allApps))
     localStorage.setItem('myApps', JSON.stringify(allApps));
     return {success: true, message: "Successfully Installed"}
 }
@@ -24,11 +26,11 @@ const saveTheApp =(id)=>{
 const unInstallTheApp =(id)=>{
     // console.log(String(id))
     const allApp = getAllApps()
-    // console.log("before:", allApp)
-    const updatedApps = allApp.filter(appId => appId !== String(id));
-    // console.log("after:", updatedApps)
+    console.log("before:", allApp)
+    const updatedApps = allApp.filter(appId => appId !== id);
+    console.log("after:", updatedApps)
 
-  // Save updated array back to localStorage
+
   localStorage.setItem('myApps', JSON.stringify(updatedApps));
   return {success: true, message: "The app has been uninstalled."}
 }

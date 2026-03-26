@@ -73,8 +73,8 @@ const {
 
              <div className="flex flex-col md:flex-row bg-white max-w-full">
                 <img className='w-full md:w-64 h-full object-cover object-top'
-                    src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?q=80&w=500&auto=format&fit=crop"
-                    //   src={image}
+                    
+                 src={image}
                     alt="image" />
                 <div className="p-5">
                     <div className="flex flex-col items-start border-b border-gray-300 pb-8">
@@ -87,7 +87,7 @@ const {
                      <div key={card.id} className='p-2 space-y-1'>
                         <img src={card.icon} alt="icon" className='max-w-8' />
                         <p className='text-sm'>{card.tag}</p>
-                        <h1 className='text-4xl font-bold'>{card.num}</h1>
+                        <h1 className='text-4xl font-bold'>{card.num}M</h1>
                     </div>
                  ))  
                        }
@@ -96,7 +96,7 @@ const {
                     <button className={`px-12 py-2 rounded-xl mt-6 duration-300 text-white transition-all ${
         isInstalled
           ? 'bg-gray-400 cursor-not-allowed'
-          : 'bg-[#00D390] hover:shadow-lg cursor-pointer'
+          : 'bg-secondary hover:shadow-lg cursor-pointer'
       }`}
       onClick={handleInstall}
       disabled={isInstalled}
