@@ -80,7 +80,7 @@ The application emphasizes performance, responsiveness, and a clean developer-fr
 
 ```bash
 # Clone the repository
-git clone YOUR_REPO_URL_HERE
+git clone REPO_URL_HERE
 
 # Go to project directory
 cd hero-io
