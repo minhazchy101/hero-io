@@ -18,17 +18,16 @@ const Hero = () => {
         </div>
       
       <div className="flex items-center gap-4 mt-5 justify-center z-1">
-        {/* <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-md cursor-pointer">Get Started</button> */}
-        <button className="flex items-center gap-2 text-indigo-600 border border-gray-400 hover:bg-indigo-50/50 px-6 py-3 rounded-md active:scale-95 transition cursor-pointer">
+        <a href='https://play.google.com/store/apps' target='blank' className="flex items-center gap-2 text-indigo-600 border border-gray-400 hover:bg-indigo-50/50 px-6 py-3 rounded-md active:scale-95 transition cursor-pointer font-bold">
           
           <img src={googleImg} alt="googleImG" />
-          App Store
-        </button>
-        <button className="flex items-center gap-2 text-indigo-600 border border-gray-400 hover:bg-indigo-50/50 px-6 py-3 rounded-md active:scale-95 transition cursor-pointer">
+         Google Play
+        </a>
+        <a href='https://www.apple.com/app-store/' target='blank' className="flex items-center gap-2 text-indigo-600 border border-gray-400 hover:bg-indigo-50/50 px-6 py-3 rounded-md active:scale-95 transition cursor-pointer font-bold">
           
           <img src={appImg} alt="appImG" />
-          Google Play
-        </button>
+          App Store
+        </a>
       </div>
 
       <div className="relative mt-12 w-full max-w-4xl px-4">

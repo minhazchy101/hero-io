@@ -1,17 +1,17 @@
 import React, { Suspense } from 'react';
 import Hero from '../components/Hero';
-import Metrics from '../components/Metrics';
+import States from '../components/States';
 import Loader from '../reuse-components/Loader';
-import Trending from '../components/Trending';
+import TopApps from '../components/TopApps';
 
 const Home = ({appPromise}) => {
    
     return (
         <>
           <Hero />
-        <Metrics />
+        <States />
         <Suspense fallback={<Loader/>}>
-        <Trending appPromise={appPromise} />
+        <TopApps appPromise={appPromise} />
 
         </Suspense>   
         </>

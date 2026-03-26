@@ -1,272 +1,458 @@
 [
   {
-    "image": "https://source.unsplash.com/featured/?task,productivity",
-    "title": "TaskFlow",
-    "companyName": "HERO.IO",
-    "id": 1,
-    "description": "A smart task manager that helps you organize, prioritize, and complete your daily goals efficiently.",
-    "size": 45,
-    "reviews": 12450,
-    "ratingAvg": 4.6,
-    "downloads": 500000,
+    "image": "https://source.unsplash.com/featured/?fitness,workout,app",
+    "title": "FitPulse: Home Workout",
+    "rating": 4.7,
+    "companyName": "healthify.app",
+    "id": 2,
+    "description": "FitPulse is designed to make fitness accessible for everyone, regardless of experience level. It provides guided workout routines that can be done at home without equipment. The app includes strength training, cardio, yoga, and stretching programs tailored to user goals. Smart tracking monitors progress over time, showing improvements in stamina, strength, and consistency. With daily reminders and motivational insights, FitPulse encourages users to stay active and build healthy habits.",
+    "size": 190,
+    "reviews": "9K",
+    "ratingAvg": 4.7,
+    "downloads": "3M",
     "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 540 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 4200 },
-      { "name": "5 star", "count": 5590 }
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4700 }
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?fitness,workout",
-    "title": "FitPulse",
-    "companyName": "HERO.IO",
-    "id": 2,
-    "description": "Track workouts, monitor health metrics, and stay motivated with personalized fitness insights.",
-    "size": 60,
-    "reviews": 9850,
+    "image": "https://source.unsplash.com/featured/?music,streaming,app",
+    "title": "SoundWave: Music Streaming",
+    "rating": 4.8,
+    "companyName": "wave.inc",
+    "id": 3,
+    "description": "SoundWave offers unlimited access to millions of songs from artists worldwide. Users can create playlists, explore curated mixes, and discover new music based on listening habits. Offline downloads allow playback without internet access, making it ideal for travel. The app also features personalized recommendations powered by AI, ensuring users always find something they love.",
+    "size": 210,
+    "reviews": "25K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 16100 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?food,delivery,app",
+    "title": "QuickBite: Food Delivery",
+    "rating": 4.5,
+    "companyName": "foodrush.io",
+    "id": 4,
+    "description": "QuickBite connects users with nearby restaurants for fast and convenient food delivery. The app features real-time tracking, multiple payment options, and exclusive deals. Users can browse menus, read reviews, and reorder favorites with ease. With its reliable delivery network, QuickBite ensures meals arrive fresh and on time.",
+    "size": 175,
+    "reviews": "14K",
+    "ratingAvg": 4.5,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 5600 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?travel,booking,app",
+    "title": "TripMate: Travel Planner",
+    "rating": 4.6,
+    "companyName": "wanderlabs",
+    "id": 5,
+    "description": "TripMate simplifies travel planning by combining itinerary creation, booking options, and destination guides in one app. Users can organize flights, hotels, and activities while receiving smart recommendations based on preferences. Offline access ensures plans are always available, even without internet.",
+    "size": 220,
+    "reviews": "11K",
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?meditation,app",
+    "title": "CalmSpace: Meditation & Sleep",
+    "rating": 4.8,
+    "companyName": "mindful.tech",
+    "id": 6,
+    "description": "CalmSpace helps users reduce stress and improve sleep through guided meditation sessions, breathing exercises, and relaxing soundscapes. The app includes programs for anxiety relief, focus improvement, and better sleep habits, making it ideal for daily mental wellness.",
+    "size": 180,
+    "reviews": "12K",
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6900 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?notes,app",
+    "title": "NoteNest: Smart Notes",
+    "rating": 4.6,
+    "companyName": "organize.io",
+    "id": 7,
+    "description": "NoteNest allows users to capture ideas, create to-do lists, and organize notes efficiently. With cloud sync, tagging, and search features, it ensures your thoughts are always accessible and structured.",
+    "size": 95,
+    "reviews": "8K",
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?weather,app",
+    "title": "SkyCast: Weather Forecast",
+    "rating": 4.4,
+    "companyName": "climatex",
+    "id": 8,
+    "description": "SkyCast provides accurate weather forecasts, real-time updates, and severe weather alerts. The app features hourly and weekly forecasts with beautiful visualizations.",
+    "size": 70,
+    "reviews": "6K",
     "ratingAvg": 4.4,
-    "downloads": 300000,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2450 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?finance,tracking,app",
+    "title": "ExpenseMate: Budget Tracker",
+    "rating": 4.5,
+    "companyName": "fintrack",
+    "id": 9,
+    "description": "ExpenseMate helps users track daily spending, set budgets, and analyze financial habits. Visual charts and reports make money management simple and effective.",
+    "size": 85,
+    "reviews": "7K",
+    "ratingAvg": 4.5,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?gaming,mobile",
+    "title": "PixelRun: Endless Adventure",
+    "rating": 4.7,
+    "companyName": "arcade.studio",
+    "id": 10,
+    "description": "PixelRun is an addictive endless runner game featuring vibrant graphics and exciting challenges. Players dodge obstacles, collect coins, and unlock new characters.",
+    "size": 140,
+    "reviews": "18K",
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 10600 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?learning,language,app",
+    "title": "LinguaGo: Learn Languages",
+    "rating": 4.9,
+    "companyName": "eduverse",
+    "id": 11,
+    "description": "LinguaGo helps users learn new languages through interactive lessons, quizzes, and speech recognition. It supports multiple languages and adapts to user progress.",
+    "size": 160,
+    "reviews": "22K",
+    "ratingAvg": 4.9,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 14400 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?photo,editor",
+    "title": "PhotoFix: AI Editor",
+    "rating": 4.8,
+    "companyName": "pixel.ai",
+    "id": 12,
+    "description": "PhotoFix offers powerful AI tools for enhancing photos, removing backgrounds, and applying artistic filters. Perfect for both beginners and professionals.",
+    "size": 210,
+    "reviews": "19K",
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 11600 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?video,editing,app",
+    "title": "ClipMaster: Video Editor",
+    "rating": 4.6,
+    "companyName": "mediaworks",
+    "id": 13,
+    "description": "ClipMaster allows users to edit videos with transitions, effects, and music. It includes templates for social media content creation.",
+    "size": 250,
+    "reviews": "13K",
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?books,reading,app",
+    "title": "Readify: eBook Reader",
+    "rating": 4.5,
+    "companyName": "bookhub",
+    "id": 14,
+    "description": "Readify provides access to thousands of eBooks with customizable reading modes, bookmarks, and offline support.",
+    "size": 110,
+    "reviews": "10K",
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5150 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?map,navigation,app",
+    "title": "RouteWise: Navigation",
+    "rating": 4.4,
+    "companyName": "navtech",
+    "id": 15,
+    "description": "RouteWise provides real-time navigation, traffic updates, and route optimization to help users reach destinations faster.",
+    "size": 130,
+    "reviews": "9K",
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?calendar,planner,app",
+    "title": "PlanIt: Daily Planner",
+    "rating": 4.7,
+    "companyName": "taskflow",
+    "id": 16,
+    "description": "PlanIt helps users organize daily schedules, set reminders, and manage tasks efficiently with a clean interface.",
+    "size": 90,
+    "reviews": "11K",
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6100 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?cloud,storage,app",
+    "title": "CloudBox: File Storage",
+    "rating": 4.6,
+    "companyName": "datavault",
+    "id": 17,
+    "description": "CloudBox allows secure storage, sharing, and backup of files with easy access across devices.",
+    "size": 200,
+    "reviews": "15K",
+    "ratingAvg": 4.6,
+    "downloads": "7M",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3600 },
-      { "name": "5 star", "count": 3750 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?finance,money",
-    "title": "MoneyMate",
-    "companyName": "HERO.IO",
-    "id": 3,
-    "description": "An intuitive budgeting app that helps you manage expenses and save smarter.",
-    "size": 38,
-    "reviews": 15400,
-    "ratingAvg": 4.7,
-    "downloads": 800000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 400 },
       { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 5000 },
+      { "name": "4 star", "count": 4200 },
       { "name": "5 star", "count": 8600 }
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?meditation,calm",
-    "title": "ZenSpace",
-    "companyName": "HERO.IO",
-    "id": 4,
-    "description": "Relax, meditate, and reduce stress with guided sessions and calming sounds.",
-    "size": 50,
-    "reviews": 11200,
-    "ratingAvg": 4.5,
-    "downloads": 450000,
-    "ratings": [
-      { "name": "1 star", "count": 350 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 3900 },
-      { "name": "5 star", "count": 4650 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?travel,map",
-    "title": "TripCraft",
-    "companyName": "HERO.IO",
-    "id": 5,
-    "description": "Plan trips, discover destinations, and manage itineraries all in one place.",
-    "size": 70,
-    "reviews": 8700,
+    "image": "https://source.unsplash.com/featured/?news,app",
+    "title": "NewsFlash: Daily News",
+    "rating": 4.3,
+    "companyName": "globalnews",
+    "id": 18,
+    "description": "NewsFlash delivers breaking news, trending stories, and personalized news feeds from around the world.",
+    "size": 75,
+    "reviews": "8K",
     "ratingAvg": 4.3,
-    "downloads": 280000,
+    "downloads": "4M",
     "ratings": [
-      { "name": "1 star", "count": 500 },
+      { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3000 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 2900 }
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?food,cooking",
-    "title": "CookSmart",
-    "companyName": "HERO.IO",
-    "id": 6,
-    "description": "Discover recipes, plan meals, and cook like a pro with step-by-step guides.",
-    "size": 55,
-    "reviews": 13400,
+    "image": "https://source.unsplash.com/featured/?shopping,ecommerce,app",
+    "title": "ShopSmart: Online Deals",
+    "rating": 4.5,
+    "companyName": "buynow",
+    "id": 19,
+    "description": "ShopSmart helps users find the best deals across online stores with price comparisons and exclusive discounts.",
+    "size": 155,
+    "reviews": "20K",
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?security,privacy,app",
+    "title": "SecureNet: VPN & Privacy",
+    "rating": 4.6,
+    "companyName": "cyberguard",
+    "id": 20,
+    "description": "SecureNet protects user privacy with encrypted connections, anonymous browsing, and secure Wi-Fi protection.",
+    "size": 120,
+    "reviews": "16K",
     "ratingAvg": 4.6,
-    "downloads": 600000,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 8800 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?kids,learning,app",
+    "title": "KiddoLearn: Fun Education",
+    "rating": 4.8,
+    "companyName": "brightkids",
+    "id": 21,
+    "description": "KiddoLearn makes learning fun for children through games, quizzes, and interactive lessons across subjects.",
+    "size": 170,
+    "reviews": "13K",
+    "ratingAvg": 4.8,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 4200 },
-      { "name": "5 star", "count": 7000 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?music,headphones",
-    "title": "BeatWave",
-    "companyName": "HERO.IO",
-    "id": 7,
-    "description": "Stream music, create playlists, and discover new tracks tailored to your taste.",
-    "size": 80,
-    "reviews": 21000,
-    "ratingAvg": 4.2,
-    "downloads": 1000000,
-    "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 1800 },
-      { "name": "3 star", "count": 4000 },
-      { "name": "4 star", "count": 7000 },
-      { "name": "5 star", "count": 7000 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?education,learning",
-    "title": "LearnLoop",
-    "companyName": "HERO.IO",
-    "id": 8,
-    "description": "Enhance your skills with bite-sized lessons and interactive courses.",
-    "size": 65,
-    "reviews": 9200,
-    "ratingAvg": 4.5,
-    "downloads": 350000,
-    "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1300 },
-      { "name": "4 star", "count": 3500 },
-      { "name": "5 star", "count": 3650 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?notes,writing",
-    "title": "NoteNest",
-    "companyName": "HERO.IO",
-    "id": 9,
-    "description": "Capture ideas, organize notes, and collaborate seamlessly.",
-    "size": 40,
-    "reviews": 7600,
-    "ratingAvg": 4.4,
-    "downloads": 220000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 2800 },
-      { "name": "5 star", "count": 3000 }
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 7900 }
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?weather,sky",
-    "title": "SkyCast",
-    "companyName": "HERO.IO",
-    "id": 10,
-    "description": "Get accurate weather forecasts and real-time updates wherever you go.",
-    "size": 30,
-    "reviews": 14500,
-    "ratingAvg": 4.3,
-    "downloads": 700000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2500 },
-      { "name": "4 star", "count": 5200 },
-      { "name": "5 star", "count": 5300 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?shopping,ecommerce",
-    "title": "ShopSwift",
-    "companyName": "HERO.IO",
-    "id": 11,
-    "description": "A seamless shopping experience with smart recommendations and deals.",
-    "size": 75,
-    "reviews": 17800,
-    "ratingAvg": 4.1,
-    "downloads": 900000,
-    "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 2000 },
-      { "name": "3 star", "count": 3500 },
-      { "name": "4 star", "count": 5500 },
-      { "name": "5 star", "count": 5300 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?chat,messaging",
-    "title": "ChatSphere",
-    "companyName": "HERO.IO",
-    "id": 12,
-    "description": "Connect with friends and teams through fast and secure messaging.",
-    "size": 68,
-    "reviews": 20000,
-    "ratingAvg": 4.2,
-    "downloads": 1200000,
-    "ratings": [
-      { "name": "1 star", "count": 1300 },
-      { "name": "2 star", "count": 1700 },
-      { "name": "3 star", "count": 4200 },
-      { "name": "4 star", "count": 6900 },
-      { "name": "5 star", "count": 5900 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?photo,editing",
-    "title": "SnapEdit",
-    "companyName": "HERO.IO",
-    "id": 13,
-    "description": "Edit photos with powerful tools and creative filters.",
-    "size": 85,
-    "reviews": 16500,
-    "ratingAvg": 4.6,
-    "downloads": 950000,
+    "image": "https://source.unsplash.com/featured/?drawing,art,app",
+    "title": "SketchPro: Drawing App",
+    "rating": 4.7,
+    "companyName": "artify",
+    "id": 22,
+    "description": "SketchPro provides tools for digital drawing, sketching, and painting with brushes, layers, and creative effects.",
+    "size": 230,
+    "reviews": "14K",
+    "ratingAvg": 4.7,
+    "downloads": "6M",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 7700 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?podcast,audio,app",
+    "title": "PodStream: Podcast Player",
+    "rating": 4.6,
+    "companyName": "audiowave",
+    "id": 23,
+    "description": "PodStream allows users to explore, subscribe, and listen to podcasts across multiple genres with offline playback.",
+    "size": 140,
+    "reviews": "9K",
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/featured/?chat,community,app",
+    "title": "ChatLoop: Social Messaging",
+    "rating": 4.5,
+    "companyName": "connectify",
+    "id": 24,
+    "description": "ChatLoop enables users to chat, share media, and connect with communities through groups and channels.",
+    "size": 160,
+    "reviews": "18K",
+    "ratingAvg": 4.5,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
       { "name": "3 star", "count": 2000 },
       { "name": "4 star", "count": 6000 },
-      { "name": "5 star", "count": 7500 }
+      { "name": "5 star", "count": 8200 }
     ]
   },
   {
-    "image": "https://source.unsplash.com/featured/?security,shield",
-    "title": "SafeVault",
-    "companyName": "HERO.IO",
-    "id": 14,
-    "description": "Secure your data with encrypted storage and privacy tools.",
-    "size": 42,
-    "reviews": 5400,
-    "ratingAvg": 4.7,
-    "downloads": 150000,
+    "image": "https://source.unsplash.com/featured/?ai,assistant,app",
+    "title": "SmartAI: Virtual Assistant",
+    "rating": 4.9,
+    "companyName": "futuretech",
+    "id": 25,
+    "description": "SmartAI helps users manage tasks, answer queries, and automate daily routines using advanced AI capabilities.",
+    "size": 210,
+    "reviews": "30K",
+    "ratingAvg": 4.9,
+    "downloads": "15M",
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 600 },
-      { "name": "4 star", "count": 2000 },
-      { "name": "5 star", "count": 2500 }
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/featured/?calendar,planner",
-    "title": "PlanPro",
-    "companyName": "HERO.IO",
-    "id": 15,
-    "description": "Manage schedules, set reminders, and stay organized every day.",
-    "size": 48,
-    "reviews": 8900,
-    "ratingAvg": 4.5,
-    "downloads": 400000,
-    "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 450 },
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
       { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 3500 }
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 19300 }
     ]
   }
 ]

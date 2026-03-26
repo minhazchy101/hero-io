@@ -1,27 +1,12 @@
 import React from 'react';
-import Logo from '../reuse-components/Logo';
+
 import { Link } from 'react-router';
+import Logo from '../reuse-components/Logo';
 
 const Footer = () => {
     return (
         <>
-         {/* <footer className="w-full bg-linear-to-b from-light-bg to-[#a987d862] text-gray-800 section">
-            <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col items-center">
-                <div className='my-4'>
-                 <Logo/>    
-                </div>
-              
-                <p className="text-center max-w-xl text-sm font-normal leading-relaxed">
-                    Empowering creators worldwide with the most advanced AI content creation tools. Transform your ideas
-                    into reality.
-                </p>
-            </div>
-            <div className="border-t border-base-100">
-                <div className="max-w-7xl mx-auto px-6 py-6 text-center text-sm font-normal">
-                    <a href="/">HERO.IO</a> ©{new Date().getFullYear()}. All rights reserved.
-                </div>
-            </div>
-        </footer>      */}
+        
           <footer className="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-gray-800 bg-linear-to-b from-light-bg to-[#967bbcc3]">
             <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
                 <div className="md:max-w-96">

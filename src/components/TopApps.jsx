@@ -1,14 +1,15 @@
 import React, { use } from 'react';
 import SectionHeader from '../reuse-components/SectionHeader';
 import AppCard from '../reuse-components/AppCard';
+import { Link } from 'react-router';
 
-const Trending = ({appPromise}) => {
+const TopApps = ({appPromise}) => {
     const appData = use(appPromise)
     // console.log(appData)
    return (
         <div className='section min-h-screen py-10 bg-gray-200'>
             <SectionHeader 
-            title={`Trending Apps ${appData.length}`}
+            title={`Trending Apps`}
             subtitle={'Explore All Trending Apps on the Market developed by us'}
             />
 
@@ -17,9 +18,12 @@ const Trending = ({appPromise}) => {
   <AppCard key={data.id} data={data} />
 ))}
             </div>
+            <Link to={'/apps'} className='flex justify-center'>
+
     <button className='btn-primary'>Show All</button>
+            </Link>
         </div>
     );
 };
 
-export default Trending;
+export default TopApps;

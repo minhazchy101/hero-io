@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
+import { useNavigate } from 'react-router';
 
 const AppCard= ({data}) => {
-    const {title,downloads, ratingAvg} = data
+    const navigate = useNavigate()
+    const {id,title,downloads, ratingAvg} = data
     return (
         
-            <div className="bg-white rounded-2xl pb-4 overflow-hidden border border-gray-300 hover:-translate-y-1 transition duration-300">
+            <div onClick={()=> navigate(`/app-details/${id}`)} className="bg-white rounded-2xl pb-4 overflow-hidden border border-gray-300 hover:-translate-y-1 transition duration-300">
                 <img className="w-full h-52 object-cover object-top p-2 rounded-2xl" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=400" alt="userImage2" />
                 <div className="flex flex-col p-2">
                     <p className="font-medium mt-3 text-center">{title}</p>

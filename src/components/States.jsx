@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Metrics = () => {
+const States = () => {
     const metricsItems = [
         {id: 1,
             title: 'Total Downloads',
@@ -42,4 +42,4 @@ const Metrics = () => {
     );
 };
 
-export default Metrics;
+export default States;

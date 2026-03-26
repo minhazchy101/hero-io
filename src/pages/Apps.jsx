@@ -13,9 +13,7 @@ const Apps = ({ appPromise }) => {
   );
 
   return (
- <> {filteredApps.length == 0 ?
-    <ErrorApp setSearch={setSearch}/>
-     :  <div className='section min-h-screen'>
+ <>  <div className='section min-h-screen'>
       <SectionHeader 
         title={"Our All Applications"}
         subtitle={"Explore All Apps on the Market developed by us. We code for Millions"}
@@ -36,12 +34,20 @@ const Apps = ({ appPromise }) => {
           />
         </div>
       </div>
+      {filteredApps.length == 0 ?
+    <div className='flex flex-col items-center justify-center min-h-[40vh]'>
+      <SectionHeader
+      title={"No Apps Found"}
+      />
+      <button className='btn-primary'  onClick={()=>setSearch('')}>Show All Apps</button>
+    </div>
+     : 
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-8">
         {filteredApps.map(data => (
           <AppCard key={data.id} data={data} />
         ))}
-      </div>
-    </div>}</>
+      </div>}
+    </div></>
   );
 };
 
